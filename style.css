@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,);
+
+
+body{
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+}
+
+body, html{
+    min-height: 100vh;
+}
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 15px 50px;
+    background: linear-gradient(92.7deg, #4CB8C4 0%, #3CD3AD 100%), #232323;
+}
+.title {
+    margin-bottom: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.18;
+    text-align: center;
+    color: #fff;
+
+}
+.form {
+
+    justify-content: space-between;
+    width: 460px;
+    display: flex;
+    height: 54px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+.input {
+    flex-grow: 1;
+    padding: 15px;
+    border: none;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+}
+.btn {
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1px;
+    color: #fff;
+    border: none;
+    width: 145px;
+    height: 54px;
+    background-color: #ED3052;
+    background-repeat: 6px;
+    transition: background-color 0.2s ease-in;
+}
+
+.btn:hover{
+    background: #f54e31;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 30px;
+    width: 360px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 5px 20px rgba(27, 108, 114, 0.25);
+}
+
+.card::before{
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: calc(100% - 20px);
+    left: 10px;
+    bottom: -10px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0px 5px 20px rgba(27, 108, 114, 0.25);
+    border-radius: 6px;
+}
+.card-city {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+}
+.card-city span{
+    display: inline-block;
+    padding: 3px 5px;
+    border-radius: 6px;
+    background-color: #E5464F;
+    color: white;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 500;
+    vertical-align: text-top;
+}
+.card-weather {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-value {
+    font-weight: 400;
+    font-size: 92px;
+    line-height: 1;
+}
+
+.card-value sup{
+    font-size: 50%;
+    vertical-align: super;
+}
+
+.card-description {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.footer {
+    padding: 7px 15px 8px;
+    background-color: #e3f1ee;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    width: 100%;
+    margin-top: auto;
+}
+
+.footer a{
+
+    color: #2e7695;
+    text-decoration: none;
+}
+.href {
+}
